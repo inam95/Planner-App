@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CategoryMenu from "../components/CategoryTabs/CategoryMenu";
 import Header from "../components/Header/Header";
 
 interface Props {}
@@ -11,6 +12,7 @@ class Homepage extends Component<Props, State> {
     return (
       <div>
         <Header />
+        <CategoryMenu />
       </div>
     );
   }

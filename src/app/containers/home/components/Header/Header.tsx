@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import React from "react";
 import { Col, Row, Input, Button } from "antd";
 import { ShoppingFilled, UserOutlined } from "@ant-design/icons";
 import { ReactComponent as Logo } from "../../../../assets/icons/logo.svg";
@@ -7,7 +7,7 @@ import "./Header.scss";
 
 const { Search } = Input;
 
-function Header(): ReactElement {
+const Header: React.FC = (): JSX.Element => {
   return (
     <Row className="homepage_header">
       <Col span={8}>
@@ -31,6 +31,6 @@ function Header(): ReactElement {
       </Col>
     </Row>
   );
-}
+};
 
 export default Header;
