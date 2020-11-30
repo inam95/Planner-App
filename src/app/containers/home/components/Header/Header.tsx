@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 import { Col, Row, Input, Button } from "antd";
 import { ShoppingFilled, UserOutlined } from "@ant-design/icons";
-import { ReactComponent as Logo } from "../../../assets/icons/logo.svg";
+import { ReactComponent as Logo } from "../../../../assets/icons/logo.svg";
 
 import "./Header.scss";
 
